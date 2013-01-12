@@ -1,0 +1,29 @@
+{
+  "name": "dynamic-content-proxy",
+  "version": "0.0.1",
+  "description": "Dynamic Content Proxy Server based on Phantom.js",
+  "author": "Renato M Camilio <renatomcamilio@gmail.com>",
+  "contributors": [
+    {
+      "name": "Stanislaw Pusep",
+      "email": "creaktive@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renatomcamilio/dynamic-content-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "http",
+    "phantomjs",
+    "dynamic",
+    "html"
+  ],
+  "dependencies": {
+    "phantomjs": "1.8.x"
+  },
+  "engines": {
+    "node": ">= 0.8.12"
+  }
+}
