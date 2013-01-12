@@ -21,7 +21,8 @@
     "html"
   ],
   "dependencies": {
-    "phantomjs": "1.8.x"
+    "phantomjs": "1.8.x",
+    "url": "0.7.x"
   },
   "engines": {
     "node": ">= 0.8.12"
