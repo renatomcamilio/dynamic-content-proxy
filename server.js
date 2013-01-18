@@ -151,7 +151,7 @@
         var har;
         if (status !== 'success') {
           console.log("FAIL to load the address: " + page.ddress);
-          return response.write("FAIL to load the address: " + page.address);
+          return response.write('{ "error" : 1, "success" : 0, "status" : "fail" }');
         } else {
           console.log("GOT REPLY FROM SERVER!");
           page.endTime = new Date();

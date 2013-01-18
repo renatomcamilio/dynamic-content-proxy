@@ -122,7 +122,7 @@ else
     page.open page.address, (status) ->
       if status isnt 'success'
         console.log "FAIL to load the address: #{page.ddress}"
-        response.write "FAIL to load the address: #{page.address}"
+        response.write '{ "error" : 1, "success" : 0, "status" : "fail" }'
       else
         console.log "GOT REPLY FROM SERVER!"
 
